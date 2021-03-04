@@ -13,6 +13,7 @@
 		D7CD52DC2579210800F9282E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7CD52DA2579210800F9282E /* Main.storyboard */; };
 		D7CD52DE2579210800F9282E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7CD52DD2579210800F9282E /* Assets.xcassets */; };
 		D7CD52E12579210800F9282E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7CD52DF2579210800F9282E /* LaunchScreen.storyboard */; };
+		D7CD52EC257938ED00F9282E /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CD52EB257938ED00F9282E /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		D7CD52DD2579210800F9282E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7CD52E02579210800F9282E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7CD52E22579210800F9282E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7CD52EB257938ED00F9282E /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		D7CD52EE257939B700F9282E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +43,7 @@
 		D7CD52C82579210800F9282E = {
 			isa = PBXGroup;
 			children = (
+				D7CD52EE257939B700F9282E /* README.md */,
 				D7CD52D32579210800F9282E /* ApplePie */,
 				D7CD52D22579210800F9282E /* Products */,
 			);
@@ -59,6 +63,7 @@
 				D7CD52D42579210800F9282E /* AppDelegate.swift */,
 				D7CD52D62579210800F9282E /* SceneDelegate.swift */,
 				D7CD52D82579210800F9282E /* ViewController.swift */,
+				D7CD52EB257938ED00F9282E /* Game.swift */,
 				D7CD52DA2579210800F9282E /* Main.storyboard */,
 				D7CD52DD2579210800F9282E /* Assets.xcassets */,
 				D7CD52DF2579210800F9282E /* LaunchScreen.storyboard */,
@@ -140,6 +145,7 @@
 				D7CD52D92579210800F9282E /* ViewController.swift in Sources */,
 				D7CD52D52579210800F9282E /* AppDelegate.swift in Sources */,
 				D7CD52D72579210800F9282E /* SceneDelegate.swift in Sources */,
+				D7CD52EC257938ED00F9282E /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +294,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ApplePie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,7 +302,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.MillionDollarLight.ApplePie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -306,6 +313,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ApplePie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,7 +321,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.MillionDollarLight.ApplePie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
